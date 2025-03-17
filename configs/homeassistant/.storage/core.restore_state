@@ -4,34 +4,34 @@
   "key": "core.restore_state",
   "data": [
     {
-      "state": {"entity_id":"person.merlijn","state":"home","attributes":{"editable":true,"id":"merlijn","device_trackers":["device_tracker.merlijns_iphone_12","device_tracker.merlijns_ipad"],"latitude":53.229705810546875,"longitude":6.564493110506082,"gps_accuracy":35,"source":"person.merlijn","user_id":"687c7bc0e5094687bad8bf76666879c5","friendly_name":"Merlijn"},"last_changed":"2025-03-17T22:43:59.912625+00:00","last_reported":"2025-03-17T22:43:59.912625+00:00","last_updated":"2025-03-17T22:43:59.912625+00:00","context":{"id":"01JPK4EDS8B8J2GMQCAMW0FRJB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"person.merlijn","state":"home","attributes":{"editable":true,"id":"merlijn","device_trackers":["device_tracker.merlijns_iphone_12","device_tracker.merlijns_ipad"],"latitude":53.229705810546875,"longitude":6.564493110506082,"gps_accuracy":35,"source":"device_tracker.merlijns_ipad","user_id":"687c7bc0e5094687bad8bf76666879c5","friendly_name":"Merlijn"},"last_changed":"2025-03-17T22:43:59.912625+00:00","last_reported":"2025-03-17T22:44:10.995198+00:00","last_updated":"2025-03-17T22:44:10.995198+00:00","context":{"id":"01JPK4ERKKQNKZ4F6CDBDWH2Y5","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-03-17T22:44:00.799287+00:00","last_reported":"2025-03-17T22:44:00.799287+00:00","last_updated":"2025-03-17T22:44:00.799287+00:00","context":{"id":"01JPK4EEMZ9SJA6SJFQZDJ664M","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"input_boolean.house_cleaned","state":"on","attributes":{"editable":true,"friendly_name":"House Cleaned"},"last_changed":"2025-03-17T22:44:00.805648+00:00","last_reported":"2025-03-17T22:44:00.805648+00:00","last_updated":"2025-03-17T22:44:00.805648+00:00","context":{"id":"01JPK4EEN52EKM6DPXYQJ7K45V","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"scene.slaapkamer_licht","state":"2025-03-09T23:32:27.917236+00:00","attributes":{"entity_id":["light.slaapkamer"],"id":"1732061078437","icon":"mdi:alarm-light","friendly_name":"Slaapkamer licht "},"last_changed":"2025-03-17T22:44:00.836845+00:00","last_reported":"2025-03-17T22:44:00.836845+00:00","last_updated":"2025-03-17T22:44:00.836845+00:00","context":{"id":"01JPK4EEP46BHWP5WBRGQT5QGM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"binary_sensor.merlijns_iphone_12_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Merlijn’s iPhone 12 Focus"},"last_changed":"2025-03-17T22:44:01.131595+00:00","last_reported":"2025-03-17T22:44:01.131595+00:00","last_updated":"2025-03-17T22:44:01.131595+00:00","context":{"id":"01JPK4EEZB5R2W6CPTSCNXZNJX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"device_tracker.merlijns_iphone_12","state":"home","attributes":{"source_type":"gps","battery_level":75,"latitude":53.229649679564204,"longitude":6.564711148097347,"gps_accuracy":3,"altitude":2.648468989133832,"vertical_accuracy":9,"friendly_name":"Merlijn’s iPhone 12"},"last_changed":"2025-03-17T22:44:01.131948+00:00","last_reported":"2025-03-17T22:44:01.131948+00:00","last_updated":"2025-03-17T22:44:01.131948+00:00","context":{"id":"01JPK4EEZBXKQ1Z01XW493XMZY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"Merlijn’s iPhone 12 Activity"},"last_changed":"2025-03-17T22:44:01.132162+00:00","last_reported":"2025-03-17T22:44:01.132162+00:00","last_updated":"2025-03-17T22:44:01.132162+00:00","context":{"id":"01JPK4EEZCQETRSJW1FN47845V","parent_id":null,"user_id":null}},
@@ -39,7 +39,7 @@
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_distance","state":"2064","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Merlijn’s iPhone 12 Distance"},"last_changed":"2025-03-17T22:44:01.132226+00:00","last_reported":"2025-03-17T22:44:01.132226+00:00","last_updated":"2025-03-17T22:44:01.132226+00:00","context":{"id":"01JPK4EEZC52WVZM1YXDG68H81","parent_id":null,"user_id":null}},
@@ -47,7 +47,7 @@
         "native_value": 2064,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_floors_ascended","state":"2","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Merlijn’s iPhone 12 Floors Ascended"},"last_changed":"2025-03-17T22:44:01.132279+00:00","last_reported":"2025-03-17T22:44:01.132279+00:00","last_updated":"2025-03-17T22:44:01.132279+00:00","context":{"id":"01JPK4EEZCHJZP0MR3VAGMJ5GB","parent_id":null,"user_id":null}},
@@ -55,7 +55,7 @@
         "native_value": 2,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_floors_descended","state":"1","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Merlijn’s iPhone 12 Floors Descended"},"last_changed":"2025-03-17T22:44:01.132316+00:00","last_reported":"2025-03-17T22:44:01.132316+00:00","last_updated":"2025-03-17T22:44:01.132316+00:00","context":{"id":"01JPK4EEZCER1HG243KSQVZ2WQ","parent_id":null,"user_id":null}},
@@ -63,7 +63,7 @@
         "native_value": 1,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_steps","state":"3015","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Merlijn’s iPhone 12 Steps"},"last_changed":"2025-03-17T22:44:01.132352+00:00","last_reported":"2025-03-17T22:44:01.132352+00:00","last_updated":"2025-03-17T22:44:01.132352+00:00","context":{"id":"01JPK4EEZCES15MRGVA3KJWN9M","parent_id":null,"user_id":null}},
@@ -71,7 +71,7 @@
         "native_value": 3015,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Merlijn’s iPhone 12 Average Active Pace"},"last_changed":"2025-03-17T22:44:01.132391+00:00","last_reported":"2025-03-17T22:44:01.132391+00:00","last_updated":"2025-03-17T22:44:01.132391+00:00","context":{"id":"01JPK4EEZCCH6WR38PRKMK51QP","parent_id":null,"user_id":null}},
@@ -79,7 +79,7 @@
         "native_value": 1,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_battery_level","state":"75","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-70","friendly_name":"Merlijn’s iPhone 12 Battery Level"},"last_changed":"2025-03-17T22:44:01.132438+00:00","last_reported":"2025-03-17T22:44:01.132438+00:00","last_updated":"2025-03-17T22:44:01.132438+00:00","context":{"id":"01JPK4EEZCQPAYKS23C44XJCGH","parent_id":null,"user_id":null}},
@@ -87,7 +87,7 @@
         "native_value": 75,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-70","friendly_name":"Merlijn’s iPhone 12 Battery State"},"last_changed":"2025-03-17T22:44:01.132475+00:00","last_reported":"2025-03-17T22:44:01.132475+00:00","last_updated":"2025-03-17T22:44:01.132475+00:00","context":{"id":"01JPK4EEZCT0575WRMQXQZC7CF","parent_id":null,"user_id":null}},
@@ -95,7 +95,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_ssid","state":"It Hurts When IP","attributes":{"icon":"mdi:wifi","friendly_name":"Merlijn’s iPhone 12 SSID"},"last_changed":"2025-03-17T22:44:01.132508+00:00","last_reported":"2025-03-17T22:44:01.132508+00:00","last_updated":"2025-03-17T22:44:01.132508+00:00","context":{"id":"01JPK4EEZC23B983C9202SKYWC","parent_id":null,"user_id":null}},
@@ -103,7 +103,7 @@
         "native_value": "It Hurts When IP",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_storage","state":"5.08","attributes":{"Available":"7,33 GB","Available (Important)":"13,09 GB","Available (Opportunistic)":"6,50 GB","Total":"127,87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Merlijn’s iPhone 12 Storage"},"last_changed":"2025-03-17T22:44:01.132544+00:00","last_reported":"2025-03-17T22:44:01.132544+00:00","last_updated":"2025-03-17T22:44:01.132544+00:00","context":{"id":"01JPK4EEZCT1FNGKQR8H087PYQ","parent_id":null,"user_id":null}},
@@ -111,7 +111,7 @@
         "native_value": "5.08",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_bssid","state":"7c:16:89:e0:39:3a","attributes":{"icon":"mdi:wifi-star","friendly_name":"Merlijn’s iPhone 12 BSSID"},"last_changed":"2025-03-17T22:44:01.132579+00:00","last_reported":"2025-03-17T22:44:01.132579+00:00","last_updated":"2025-03-17T22:44:01.132579+00:00","context":{"id":"01JPK4EEZCESTMMEBRAA8EAYAD","parent_id":null,"user_id":null}},
@@ -119,7 +119,7 @@
         "native_value": "7c:16:89:e0:39:3a",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Merlijn’s iPhone 12 Connection Type"},"last_changed":"2025-03-17T22:44:01.132614+00:00","last_reported":"2025-03-17T22:44:01.132614+00:00","last_updated":"2025-03-17T22:44:01.132614+00:00","context":{"id":"01JPK4EEZCD1MKFXJZTTKZ8CRX","parent_id":null,"user_id":null}},
@@ -127,7 +127,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Merlijn’s iPhone 12 SIM 1"},"last_changed":"2025-03-17T22:44:01.132645+00:00","last_reported":"2025-03-17T22:44:01.132645+00:00","last_updated":"2025-03-17T22:44:01.132645+00:00","context":{"id":"01JPK4EEZCYQYGEW4GJRSVXB9E","parent_id":null,"user_id":null}},
@@ -135,7 +135,7 @@
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Merlijn’s iPhone 12 SIM 2"},"last_changed":"2025-03-17T22:44:01.132676+00:00","last_reported":"2025-03-17T22:44:01.132676+00:00","last_updated":"2025-03-17T22:44:01.132676+00:00","context":{"id":"01JPK4EEZCTGMAQR7JA56HTP0P","parent_id":null,"user_id":null}},
@@ -143,7 +143,7 @@
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_geocoded_location","state":"Deliplein 48\n9715 DA Groningen\nNetherlands","attributes":{"Administrative Area":"Groningen","Areas Of Interest":"N/A","Country":"Netherlands","Inland Water":"N/A","ISO Country Code":"NL","Locality":"Groningen","Location":[53.229649679564204,6.564711148097347],"Name":"Deliplein 48","Ocean":"N/A","Postal Code":"9715 DA","Sub Administrative Area":"Groningen","Sub Locality":"Old North","Sub Thoroughfare":"48","Thoroughfare":"Deliplein","Time Zone":"Europe/Amsterdam","Zones":["Home","Jumbo"],"icon":"mdi:map","friendly_name":"Merlijn’s iPhone 12 Geocoded Location"},"last_changed":"2025-03-17T22:44:01.132707+00:00","last_reported":"2025-03-17T22:44:01.132707+00:00","last_updated":"2025-03-17T22:44:01.132707+00:00","context":{"id":"01JPK4EEZCS7145QXRPASE6TKG","parent_id":null,"user_id":null}},
@@ -151,7 +151,7 @@
         "native_value": "Deliplein 48\n9715 DA Groningen\nNetherlands",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Merlijn’s iPhone 12 Last Update Trigger"},"last_changed":"2025-03-17T22:44:01.132740+00:00","last_reported":"2025-03-17T22:44:01.132740+00:00","last_updated":"2025-03-17T22:44:01.132740+00:00","context":{"id":"01JPK4EEZCD417XC4YJTG8QJWB","parent_id":null,"user_id":null}},
@@ -159,7 +159,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_app_version","state":"2025.2","attributes":{"icon":"mdi:cellphone","friendly_name":"Merlijn’s iPhone 12 App Version"},"last_changed":"2025-03-17T22:44:01.132771+00:00","last_reported":"2025-03-17T22:44:01.132771+00:00","last_updated":"2025-03-17T22:44:01.132771+00:00","context":{"id":"01JPK4EEZC5JFB7QZEZ8WYMRRP","parent_id":null,"user_id":null}},
@@ -167,7 +167,7 @@
         "native_value": "2025.2",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Merlijn’s iPhone 12 Location permission"},"last_changed":"2025-03-17T22:44:01.132801+00:00","last_reported":"2025-03-17T22:44:01.132801+00:00","last_updated":"2025-03-17T22:44:01.132801+00:00","context":{"id":"01JPK4EEZC86ECWST8KYMJKHTD","parent_id":null,"user_id":null}},
@@ -175,7 +175,7 @@
         "native_value": "Authorized Always",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_iphone_12_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"Merlijn’s iPhone 12 Audio Output"},"last_changed":"2025-03-17T22:44:01.132832+00:00","last_reported":"2025-03-17T22:44:01.132832+00:00","last_updated":"2025-03-17T22:44:01.132832+00:00","context":{"id":"01JPK4EEZCPQ236CDJ6X7C6E60","parent_id":null,"user_id":null}},
@@ -183,17 +183,17 @@
         "native_value": "Built-in Speaker",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"binary_sensor.merlijns_ipad_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Merlijn’s iPad Focus"},"last_changed":"2025-03-17T22:44:01.132997+00:00","last_reported":"2025-03-17T22:44:01.132997+00:00","last_updated":"2025-03-17T22:44:01.132997+00:00","context":{"id":"01JPK4EEZCMFVN2K47D9ASA32P","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"device_tracker.merlijns_ipad","state":"home","attributes":{"source_type":"gps","battery_level":72,"latitude":53.229705810546875,"longitude":6.564493110506082,"gps_accuracy":35,"altitude":3.537449836730957,"vertical_accuracy":13,"friendly_name":"Merlijn’s iPad"},"last_changed":"2025-03-17T22:44:01.133094+00:00","last_reported":"2025-03-17T22:44:01.133094+00:00","last_updated":"2025-03-17T22:44:01.133094+00:00","context":{"id":"01JPK4EEZDE2KKRRK2Q78AJ4WK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Merlijn’s iPad Activity"},"last_changed":"2025-03-17T22:44:01.135121+00:00","last_reported":"2025-03-17T22:44:01.135121+00:00","last_updated":"2025-03-17T22:44:01.135121+00:00","context":{"id":"01JPK4EEZFMJHS79XEGRC06QVM","parent_id":null,"user_id":null}},
@@ -201,7 +201,7 @@
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-70","friendly_name":"Merlijn’s iPad Battery State"},"last_changed":"2025-03-17T22:44:01.135170+00:00","last_reported":"2025-03-17T22:44:01.135170+00:00","last_updated":"2025-03-17T22:44:01.135170+00:00","context":{"id":"01JPK4EEZFRRNRZWNH189GDHBT","parent_id":null,"user_id":null}},
@@ -209,7 +209,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_battery_level","state":"70","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-70","friendly_name":"Merlijn’s iPad Battery Level"},"last_changed":"2025-03-17T22:44:01.135213+00:00","last_reported":"2025-03-17T22:44:01.135213+00:00","last_updated":"2025-03-17T22:44:01.135213+00:00","context":{"id":"01JPK4EEZF20DA0PE9VCFJRE14","parent_id":null,"user_id":null}},
@@ -217,7 +217,7 @@
         "native_value": 70,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_storage","state":"0.00","attributes":{"Available":"158,7 MB","Available (Important)":"167,1 MB","Available (Opportunistic)":"0,0 MB","Total":"31,99 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Merlijn’s iPad Storage"},"last_changed":"2025-03-17T22:44:01.135252+00:00","last_reported":"2025-03-17T22:44:01.135252+00:00","last_updated":"2025-03-17T22:44:01.135252+00:00","context":{"id":"01JPK4EEZF39K2M79B787Y0G1A","parent_id":null,"user_id":null}},
@@ -225,7 +225,7 @@
         "native_value": "0.00",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_ssid","state":"It Hurts When IP","attributes":{"icon":"mdi:wifi","friendly_name":"Merlijn’s iPad SSID"},"last_changed":"2025-03-17T22:44:01.135284+00:00","last_reported":"2025-03-17T22:44:01.135284+00:00","last_updated":"2025-03-17T22:44:01.135284+00:00","context":{"id":"01JPK4EEZFYCMH0C3VQKXVGTAJ","parent_id":null,"user_id":null}},
@@ -233,7 +233,7 @@
         "native_value": "It Hurts When IP",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_bssid","state":"7c:16:89:e0:39:3a","attributes":{"icon":"mdi:wifi-star","friendly_name":"Merlijn’s iPad BSSID"},"last_changed":"2025-03-17T22:44:01.135317+00:00","last_reported":"2025-03-17T22:44:01.135317+00:00","last_updated":"2025-03-17T22:44:01.135317+00:00","context":{"id":"01JPK4EEZFSRYBCWK0MAWWWWW5","parent_id":null,"user_id":null}},
@@ -241,7 +241,7 @@
         "native_value": "7c:16:89:e0:39:3a",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Merlijn’s iPad Connection Type"},"last_changed":"2025-03-17T22:44:01.135352+00:00","last_reported":"2025-03-17T22:44:01.135352+00:00","last_updated":"2025-03-17T22:44:01.135352+00:00","context":{"id":"01JPK4EEZFTRFVKB5TWZR050SG","parent_id":null,"user_id":null}},
@@ -249,7 +249,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_geocoded_location","state":"Deliplein 40\n9715 EE Groningen\nNetherlands","attributes":{"Administrative Area":"Groningen","Areas Of Interest":"N/A","Country":"Netherlands","Inland Water":"N/A","ISO Country Code":"NL","Locality":"Groningen","Location":[53.229705810546875,6.564493110506082],"Name":"Deliplein 40","Ocean":"N/A","Postal Code":"9715 EE","Sub Administrative Area":"Groningen","Sub Locality":"Old North","Sub Thoroughfare":"40","Thoroughfare":"Deliplein","Time Zone":"Europe/Amsterdam","Zones":["Home","Jumbo"],"icon":"mdi:map","friendly_name":"Merlijn’s iPad Geocoded Location"},"last_changed":"2025-03-17T22:44:01.135387+00:00","last_reported":"2025-03-17T22:44:01.135387+00:00","last_updated":"2025-03-17T22:44:01.135387+00:00","context":{"id":"01JPK4EEZFGW129NV7WY8MMG1E","parent_id":null,"user_id":null}},
@@ -257,7 +257,7 @@
         "native_value": "Deliplein 40\n9715 EE Groningen\nNetherlands",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Merlijn’s iPad Last Update Trigger"},"last_changed":"2025-03-17T22:44:01.135426+00:00","last_reported":"2025-03-17T22:44:01.135426+00:00","last_updated":"2025-03-17T22:44:01.135426+00:00","context":{"id":"01JPK4EEZFW34BP3R20RJ09CVZ","parent_id":null,"user_id":null}},
@@ -265,7 +265,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Merlijn’s iPad Location permission"},"last_changed":"2025-03-17T22:44:01.135461+00:00","last_reported":"2025-03-17T22:44:01.135461+00:00","last_updated":"2025-03-17T22:44:01.135461+00:00","context":{"id":"01JPK4EEZF43FF1R6FX0QEE4Z6","parent_id":null,"user_id":null}},
@@ -273,7 +273,7 @@
         "native_value": "Authorized Always",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_app_version","state":"2025.2","attributes":{"icon":"mdi:cellphone","friendly_name":"Merlijn’s iPad App Version"},"last_changed":"2025-03-17T22:44:01.135493+00:00","last_reported":"2025-03-17T22:44:01.135493+00:00","last_updated":"2025-03-17T22:44:01.135493+00:00","context":{"id":"01JPK4EEZF7BK003CH3AYYVXCB","parent_id":null,"user_id":null}},
@@ -281,7 +281,7 @@
         "native_value": "2025.2",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"sensor.merlijns_ipad_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"Merlijn’s iPad Audio Output"},"last_changed":"2025-03-17T22:44:01.135523+00:00","last_reported":"2025-03-17T22:44:01.135523+00:00","last_updated":"2025-03-17T22:44:01.135523+00:00","context":{"id":"01JPK4EEZFM9Y3SRQTFJ5CVK6H","parent_id":null,"user_id":null}},
@@ -289,77 +289,77 @@
         "native_value": "Built-in Speaker",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"script.turn_off_all","state":"off","attributes":{"last_triggered":"2025-03-04T19:05:08.919585+00:00","mode":"single","current":0,"icon":"mdi:alarm-light-off","friendly_name":"Turn off all"},"last_changed":"2025-03-17T22:44:01.258633+00:00","last_reported":"2025-03-17T22:44:01.258633+00:00","last_updated":"2025-03-17T22:44:01.258633+00:00","context":{"id":"01JPK4EF3ABNXC3KSBH487VZ35","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"script.toggle_lamp_kast","state":"off","attributes":{"last_triggered":"2024-11-01T23:56:49.007659+00:00","mode":"single","current":0,"icon":"mdi:desk-lamp","friendly_name":"Toggle lamp kast"},"last_changed":"2025-03-17T22:44:01.258687+00:00","last_reported":"2025-03-17T22:44:01.258687+00:00","last_updated":"2025-03-17T22:44:01.258687+00:00","context":{"id":"01JPK4EF3A693ASD0ZR45W0RKK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"script.fade_in_light","state":"off","attributes":{"last_triggered":"2025-03-17T06:22:01.029615+00:00","mode":"single","current":0,"friendly_name":"Fade in light"},"last_changed":"2025-03-17T22:44:01.258719+00:00","last_reported":"2025-03-17T22:44:01.258719+00:00","last_updated":"2025-03-17T22:44:01.258719+00:00","context":{"id":"01JPK4EF3APAHW2THWYBHM1X8F","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.auto_clean_when_cleaning","state":"on","attributes":{"id":"1727539439446","last_triggered":"2025-03-17T07:21:36.815164+00:00","mode":"single","current":0,"friendly_name":"Cleaning - Auto clean"},"last_changed":"2025-03-17T22:44:01.273968+00:00","last_reported":"2025-03-17T22:44:01.273968+00:00","last_updated":"2025-03-17T22:44:01.273968+00:00","context":{"id":"01JPK4EF3SQM8D07E8FB4XW83N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.auto_return","state":"on","attributes":{"id":"1727539490647","last_triggered":"2025-03-17T16:50:07.490418+00:00","mode":"single","current":0,"friendly_name":"Cleaning - Auto return"},"last_changed":"2025-03-17T22:44:01.274026+00:00","last_reported":"2025-03-17T22:44:01.274026+00:00","last_updated":"2025-03-17T22:44:01.274026+00:00","context":{"id":"01JPK4EF3TMBZ9YXKGCRQE27PX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.buitenlampjes_auto_aan","state":"on","attributes":{"id":"1727540242749","last_triggered":"2025-03-17T17:41:36.421432+00:00","mode":"single","current":0,"friendly_name":"Buitenlampjes - Auto aan"},"last_changed":"2025-03-17T22:44:01.274060+00:00","last_reported":"2025-03-17T22:44:01.274060+00:00","last_updated":"2025-03-17T22:44:01.274060+00:00","context":{"id":"01JPK4EF3TW7CZNKS8QM88VYZ4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.buitenlampjes_auto_uit","state":"on","attributes":{"id":"1727540293490","last_triggered":"2025-03-17T02:00:00.258715+00:00","mode":"single","current":0,"friendly_name":"TURN OFF ALL"},"last_changed":"2025-03-17T22:44:01.274091+00:00","last_reported":"2025-03-17T22:44:01.274091+00:00","last_updated":"2025-03-17T22:44:01.274091+00:00","context":{"id":"01JPK4EF3T4JM7ENS5GZPDX4FT","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.slaapkamer_ligt_dim","state":"on","attributes":{"id":"1732320746544","last_triggered":"2025-03-15T00:25:25.860020+00:00","mode":"single","current":0,"friendly_name":"Slaapkamer light - Auto dim"},"last_changed":"2025-03-17T22:44:01.274124+00:00","last_reported":"2025-03-17T22:44:01.274124+00:00","last_updated":"2025-03-17T22:44:01.274124+00:00","context":{"id":"01JPK4EF3TE3BAY1TW8F81K1T1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.slaapmaker_light_auto_helder","state":"on","attributes":{"id":"1733845081793","last_triggered":"2025-03-17T17:27:17.403292+00:00","mode":"single","current":0,"friendly_name":"Slaapmaker light - Auto helder"},"last_changed":"2025-03-17T22:44:01.274152+00:00","last_reported":"2025-03-17T22:44:01.274152+00:00","last_updated":"2025-03-17T22:44:01.274152+00:00","context":{"id":"01JPK4EF3T5XMF3YSR0BYSNFA0","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.kast_lamp_auto_aan_bij_aankomst","state":"on","attributes":{"id":"1734213944874","last_triggered":"2025-03-17T17:41:06.422174+00:00","mode":"single","current":0,"friendly_name":"Lampen woonkamer - Auto aan"},"last_changed":"2025-03-17T22:44:01.274176+00:00","last_reported":"2025-03-17T22:44:01.274176+00:00","last_updated":"2025-03-17T22:44:01.274176+00:00","context":{"id":"01JPK4EF3TBX9MVYHYN5KP8332","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.always_play_spotify","state":"on","attributes":{"id":"1734698908114","last_triggered":"2025-03-17T16:59:03.638931+00:00","mode":"single","current":0,"friendly_name":"Always play spotify"},"last_changed":"2025-03-17T22:44:01.274198+00:00","last_reported":"2025-03-17T22:44:01.274198+00:00","last_updated":"2025-03-17T22:44:01.274198+00:00","context":{"id":"01JPK4EF3TEZYMXKHBGFAQQA72","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.turn_lights_off_when_leaving_home","state":"on","attributes":{"id":"1741599762733","last_triggered":"2025-03-17T07:21:36.817247+00:00","mode":"single","current":0,"friendly_name":"Turn lights off when leaving home"},"last_changed":"2025-03-17T22:44:01.274222+00:00","last_reported":"2025-03-17T22:44:01.274222+00:00","last_updated":"2025-03-17T22:44:01.274222+00:00","context":{"id":"01JPK4EF3TK1JCA6C7QPS1SG5H","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.turn_light_on_when_getting_home","state":"on","attributes":{"id":"1741600092284","last_triggered":"2025-03-16T03:27:54.267579+00:00","mode":"single","current":0,"friendly_name":"Turn light on when getting home"},"last_changed":"2025-03-17T22:44:01.274245+00:00","last_reported":"2025-03-17T22:44:01.274245+00:00","last_updated":"2025-03-17T22:44:01.274245+00:00","context":{"id":"01JPK4EF3TVWN43G6MWBRJWN6V","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     },
     {
       "state": {"entity_id":"automation.turn_on_sfeer_bedroom_at_23_when_home","state":"on","attributes":{"id":"1741600399330","last_triggered":"2025-03-17T22:00:00.140411+00:00","mode":"single","current":0,"friendly_name":"Turn on sfeer bedroom at 23 when home"},"last_changed":"2025-03-17T22:44:01.274267+00:00","last_reported":"2025-03-17T22:44:01.274267+00:00","last_updated":"2025-03-17T22:44:01.274267+00:00","context":{"id":"01JPK4EF3T3JRB3VVMQRJNN3ZM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-03-17T22:44:10.993733+00:00"
+      "last_seen": "2025-03-17T22:53:29.130924+00:00"
     }
   ]
 }

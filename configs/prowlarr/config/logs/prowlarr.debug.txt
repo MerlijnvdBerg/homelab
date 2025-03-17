@@ -2335,3 +2335,6 @@ RequestUri: https://kickass.ws/new/?field=time_add&sorder=desc;StatusCode: Forbi
 2025-03-17 22:52:59.8|Debug|ReleaseSearchService|Total of 26 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045] from 1 indexer(s)
 2025-03-17 22:53:00.2|Debug|Cardigann|Adding request for Badass Torrents: https://badasstorrents.com/
 2025-03-17 22:53:00.2|Debug|Cardigann|Downloading Feed https://badasstorrents.com/
+2025-03-17 22:53:05.0|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2025-03-17 22:53:29.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-03-17 22:53:29.1|Info|ConsoleApp|Exiting main.

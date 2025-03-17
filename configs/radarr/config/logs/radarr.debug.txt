@@ -2945,3 +2945,5 @@
 2025-03-17 22:52:29.7|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
 2025-03-17 22:52:29.7|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (1 ms)
 2025-03-17 22:52:29.7|Debug|Api|[GET] /api/v3/command: 200.OK (0 ms)
+2025-03-17 22:53:29.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-03-17 22:53:29.1|Info|ConsoleApp|Exiting main.

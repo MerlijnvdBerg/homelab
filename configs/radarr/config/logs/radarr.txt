@@ -4326,3 +4326,5 @@
 2025-03-17 22:51:02.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
 2025-03-17 22:51:03.7|Info|DownloadService|Report for The Electric State (2025) sent to qBittorrent from indexer The Pirate Bay (Prowlarr). The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL
 2025-03-17 22:51:03.7|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2025-03-17 22:53:29.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-03-17 22:53:29.1|Info|ConsoleApp|Exiting main.

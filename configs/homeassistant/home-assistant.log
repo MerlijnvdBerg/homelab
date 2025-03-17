@@ -1,2 +1,12 @@
 2025-03-17 22:44:01.110 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Merlijnjoeve@hotmail.com' for tuya integration could not authenticate: Authentication failed. Please re-authenticate
 2025-03-17 22:44:01.128 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Merlijnjoeve@hotmail.com' for tuya integration could not authenticate: Authentication failed. Please re-authenticate
+2025-03-17 22:53:29.141 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry InternetBox for upnp
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 753, in __async_setup_with_context
+    result = await component.async_setup_entry(hass, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/upnp/__init__.py", line 72, in async_setup_entry
+    await device_discovered_event.wait()
+  File "/usr/local/lib/python3.13/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError: Home Assistant is stopping

@@ -299,3 +299,10 @@
 [2025-03-17 22:44:07.721 +00:00] [INF] [1] Main: Startup complete 0:00:09.5130529
 [2025-03-17 22:49:31.478 +00:00] [INF] [34] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.65.1" request
 [2025-03-17 22:49:32.480 +00:00] [INF] [33] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.65.1" closed
+[2025-03-17 22:53:29.113 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2025-03-17 22:53:29.120 +00:00] [INF] [3] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2025-03-17 22:53:29.125 +00:00] [INF] [3] Main: Running query planner optimizations in the database... This might take a while
+[2025-03-17 22:53:29.156 +00:00] [INF] [3] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2025-03-17 22:53:29.157 +00:00] [INF] [3] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2025-03-17 22:53:29.157 +00:00] [INF] [3] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2025-03-17 22:53:29.157 +00:00] [INF] [3] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"

@@ -2555,3 +2555,5 @@ RequestUri: https://kickass.ws/new/?field=time_add&sorder=desc;StatusCode: Forbi
 2025-03-17 22:51:01.7|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [Electric State 2025], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045]
 2025-03-17 22:52:59.7|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
 2025-03-17 22:52:59.7|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-03-17 22:53:29.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-03-17 22:53:29.1|Info|ConsoleApp|Exiting main.
