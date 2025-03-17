@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "repairs.issue_registry",
+  "data": {
+    "issues": [
+      {
+        "created": "2025-03-17T22:13:47.211800+00:00",
+        "dismissed_version": null,
+        "domain": "homeassistant",
+        "is_persistent": false,
+        "issue_id": "config_entry_reauth_tuya_01JG9T7FQ9B4FY25PWME494KTM"
+      },
+      {
+        "created": "2025-03-17T22:13:47.562376+00:00",
+        "dismissed_version": null,
+        "domain": "homeassistant",
+        "is_persistent": false,
+        "issue_id": "config_entry_reauth_tuya_01JD3EF4CVFV59XV347X550KNR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "merlijn",
+        "name": "Merlijn",
+        "user_id": "687c7bc0e5094687bad8bf76666879c5",
+        "device_trackers": [
+          "device_tracker.merlijns_iphone_12",
+          "device_tracker.merlijns_ipad"
+        ]
+      }
+    ]
+  }
+}

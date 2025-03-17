@@ -1,0 +1,133 @@
+2025-03-17T21:36:54.866Z [info]: Commit Tag: $GIT_SHA 
+2025-03-17T21:36:55.144Z [info]: Starting Jellyseerr version 2.5.1 
+2025-03-17T21:36:55.623Z [info][Notifications]: Registered notification agents 
+2025-03-17T21:36:55.625Z [info][Server]: Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet 
+2025-03-17T21:36:55.627Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":1,"enabled":true,"isBuiltIn":true,"order":0}}
+2025-03-17T21:36:55.635Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":2,"enabled":true,"isBuiltIn":true,"order":1}}
+2025-03-17T21:36:55.640Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":3,"enabled":true,"isBuiltIn":true,"order":2}}
+2025-03-17T21:36:55.645Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":4,"enabled":true,"isBuiltIn":true,"order":3}}
+2025-03-17T21:36:55.649Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":5,"enabled":true,"isBuiltIn":true,"order":4}}
+2025-03-17T21:36:55.653Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":6,"enabled":true,"isBuiltIn":true,"order":5}}
+2025-03-17T21:36:55.656Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":7,"enabled":true,"isBuiltIn":true,"order":6}}
+2025-03-17T21:36:55.659Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":8,"enabled":true,"isBuiltIn":true,"order":7}}
+2025-03-17T21:36:55.663Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":9,"enabled":true,"isBuiltIn":true,"order":8}}
+2025-03-17T21:36:55.668Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":10,"enabled":true,"isBuiltIn":true,"order":9}}
+2025-03-17T21:36:55.672Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":11,"enabled":true,"isBuiltIn":true,"order":10}}
+2025-03-17T21:36:55.679Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":12,"enabled":true,"isBuiltIn":true,"order":11}}
+2025-03-17T21:36:55.751Z [info][Server]: Server ready on port 5055 
+2025-03-17T21:46:13.150Z [info]: Commit Tag: $GIT_SHA 
+2025-03-17T21:46:13.428Z [info]: Starting Jellyseerr version 2.5.1 
+2025-03-17T21:46:13.762Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2025-03-17T21:46:13.763Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2025-03-17T21:46:13.764Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2025-03-17T21:46:13.764Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2025-03-17T21:46:13.764Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2025-03-17T21:46:13.765Z [info][Notifications]: Registered notification agents 
+2025-03-17T21:46:13.768Z [info][Server]: Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet 
+2025-03-17T21:46:13.843Z [info][Server]: Server ready on port 5055 
+2025-03-17T22:07:17.013Z [debug][Jellyfin API]: Failed to authenticate with headers {"error":"","ip":"192.168.65.1"}
+2025-03-17T22:07:17.014Z [error][Auth]: The provided Jellyfin is invalid or the server is not reachable. {"error":"INVALID_URL","status":404,"hostname":"http://localhost:8096"}
+2025-03-17T22:08:22.656Z [debug][Jellyfin API]: Failed to authenticate with headers {"error":"connect ECONNREFUSED 127.0.0.1:8096","ip":"192.168.65.1"}
+2025-03-17T22:08:22.656Z [error][Auth]: The provided Jellyfin is invalid or the server is not reachable. {"error":"INVALID_URL","status":404,"hostname":"http://127.0.0.1:8096"}
+2025-03-17T22:08:40.837Z [debug][Jellyfin API]: Failed to authenticate with headers {"error":"connect ECONNREFUSED 127.0.0.1:8096","ip":"192.168.65.1"}
+2025-03-17T22:08:40.838Z [error][Auth]: The provided Jellyfin is invalid or the server is not reachable. {"error":"INVALID_URL","status":404,"hostname":"http://127.0.0.1:8096"}
+2025-03-17T22:09:37.551Z [debug][Jellyfin API]: Failed to authenticate with headers {"error":"","ip":"192.168.65.1"}
+2025-03-17T22:09:37.552Z [error][Auth]: The provided Jellyfin is invalid or the server is not reachable. {"error":"INVALID_URL","status":404,"hostname":"http://localhost:8096"}
+2025-03-17T22:13:45.652Z [info]: Commit Tag: $GIT_SHA 
+2025-03-17T22:13:45.949Z [info]: Starting Jellyseerr version 2.5.1 
+2025-03-17T22:13:46.450Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2025-03-17T22:13:46.451Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2025-03-17T22:13:46.453Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2025-03-17T22:13:46.453Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2025-03-17T22:13:46.454Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2025-03-17T22:13:46.456Z [info][Notifications]: Registered notification agents 
+2025-03-17T22:13:46.458Z [info][Server]: Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet 
+2025-03-17T22:13:46.526Z [info][Server]: Server ready on port 5055 
+2025-03-17T22:20:03.328Z [info][API]: Sign-in attempt from Jellyfin user with access to the media server; creating initial admin user for Jellyseerr {"ip":"::ffff:192.168.65.1","jellyfinUsername":"admin"}
+2025-03-17T22:20:03.374Z [info][Jobs]: Scheduled jobs loaded 
+2025-03-17T22:20:06.353Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ee1e9fb9-f3d9-4182-8ce9-e5cecae26118"}
+2025-03-17T22:20:06.357Z [info][Jellyfin Sync]: Full Scan Complete 
+2025-03-17T22:20:23.006Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f8997a66-8761-419c-847b-ab984fde2e16"}
+2025-03-17T22:20:23.014Z [info][Jellyfin Sync]: Full Scan Complete 
+2025-03-17T22:21:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:22:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:23:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:24:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:25:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:25:00.026Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-03-17T22:25:00.027Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f04e7ce9-c08b-4564-a602-f176f2cfe821"}
+2025-03-17T22:25:00.031Z [info][Jellyfin Sync]: Beginning to process recently added for library: Downloads 
+2025-03-17T22:25:00.055Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-03-17T22:25:00.058Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-03-17T22:25:00.060Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-03-17T22:26:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:27:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:28:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:29:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:30:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:30:00.028Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-03-17T22:30:00.028Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"79d769c8-d715-4245-ab82-8378f2b1a12e"}
+2025-03-17T22:30:00.032Z [info][Jellyfin Sync]: Beginning to process recently added for library: Downloads 
+2025-03-17T22:30:00.042Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-03-17T22:30:00.045Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-03-17T22:30:00.048Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-03-17T22:31:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:32:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:33:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:34:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:35:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:35:00.017Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-03-17T22:35:00.018Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"905db978-fa83-4519-9f26-9f3aa73d713f"}
+2025-03-17T22:35:00.021Z [info][Jellyfin Sync]: Beginning to process recently added for library: Downloads 
+2025-03-17T22:35:00.027Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-03-17T22:35:00.029Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-03-17T22:35:00.032Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-03-17T22:36:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:37:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:38:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:39:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:40:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:40:00.028Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-03-17T22:40:00.029Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"30beaa2b-8083-4574-9eb2-9da9580d32ad"}
+2025-03-17T22:40:00.038Z [info][Jellyfin Sync]: Beginning to process recently added for library: Downloads 
+2025-03-17T22:40:00.047Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-03-17T22:40:00.049Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-03-17T22:40:00.051Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-03-17T22:41:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:42:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:43:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:43:59.617Z [info]: Commit Tag: $GIT_SHA 
+2025-03-17T22:43:59.902Z [info]: Starting Jellyseerr version 2.5.1 
+2025-03-17T22:44:00.282Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2025-03-17T22:44:00.283Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2025-03-17T22:44:00.284Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2025-03-17T22:44:00.285Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2025-03-17T22:44:00.285Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2025-03-17T22:44:00.289Z [info][Notifications]: Registered notification agents 
+2025-03-17T22:44:00.317Z [info][Jobs]: Scheduled jobs loaded 
+2025-03-17T22:44:00.424Z [info][Server]: Server ready on port 5055 
+2025-03-17T22:45:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:45:00.018Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-03-17T22:45:00.019Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"28075188-dad0-4a1f-a9b4-76f4ddea849c"}
+2025-03-17T22:45:00.025Z [info][Jellyfin Sync]: Beginning to process recently added for library: Downloads 
+2025-03-17T22:45:00.104Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-03-17T22:45:00.110Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-03-17T22:45:00.114Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-03-17T22:46:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:47:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:48:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:49:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:50:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:50:00.005Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-03-17T22:50:00.006Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"996f9a6d-c982-4544-bb2a-0b702676fd8d"}
+2025-03-17T22:50:00.009Z [info][Jellyfin Sync]: Beginning to process recently added for library: Downloads 
+2025-03-17T22:50:00.017Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-03-17T22:50:00.019Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-03-17T22:50:00.021Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-03-17T22:51:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:51:01.253Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"The Electric State (2025)"}
+2025-03-17T22:51:01.256Z [info][Media Request]: Sent request to Radarr {"requestId":1,"mediaId":1}
+2025-03-17T22:51:01.578Z [info][Radarr]: Radarr accepted request 
+2025-03-17T22:51:01.578Z [debug][Radarr]: Radarr add details {"movie":{"title":"The Electric State","originalTitle":"The Electric State","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"electric state","sizeOnDisk":0,"status":"released","overview":"An orphaned teen hits the road with a mysterious robot to find her long-lost brother, teaming up with a smuggler and his wisecracking sidekick.","inCinemas":"2025-03-07T00:00:00Z","digitalRelease":"2025-03-13T00:00:00Z","releaseDate":"2025-03-13T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/1/poster.jpg","remoteUrl":"https://image.tmdb.org/t/p/original/jRdxyW5ZmhD3ycStlb7gwOewTuE.jpg"},{"coverType":"fanart","url":"/MediaCover/1/fanart.jpg","remoteUrl":"https://image.tmdb.org/t/p/original/2n7lYEeIbucsEQCswRcVB6ZYmMP.jpg"}],"website":"https://www.netflix.com/title/81601562","year":2025,"youTubeTrailerId":"QIw6ITiwgBU","studio":"AGBO","path":"/media/movies/The Electric State (2025)","qualityProfileId":6,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/media/movies/The Electric State (2025)","runtime":128,"cleanTitle":"theelectricstate","imdbId":"tt7766378","tmdbId":777443,"titleSlug":"777443","rootFolderPath":"/media/movies/","certification":"PG-13","genres":["Science Fiction","Adventure","Drama"],"tags":[],"added":"2025-03-17T22:51:01Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"tmdb":{"votes":340,"value":6.8,"type":"user"},"metacritic":{"votes":0,"value":31,"type":"user"}},"popularity":14.675,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[]},"id":1}}
+2025-03-17T22:52:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-03-17T22:53:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 

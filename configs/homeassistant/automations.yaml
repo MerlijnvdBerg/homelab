@@ -1,0 +1,283 @@
+- id: '1727539439446'
+  alias: Cleaning - Auto clean
+  description: ''
+  triggers:
+  - device_id: 8c3c5701135886482d0ca8405c2a7830
+    domain: device_tracker
+    entity_id: a72e4e5aae7bc34ede34e96425571b8e
+    type: leaves
+    zone: zone.jumbo
+    trigger: device
+  conditions:
+  - condition: and
+    conditions:
+    - condition: time
+      after: 08:00:00
+      before: '19:00:00'
+    - condition: state
+      entity_id: input_boolean.house_cleaned
+      state: 'off'
+  actions:
+  - action: input_boolean.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.house_cleaned
+  - device_id: 96913eea60bdf81bd657ae157a3e5572
+    domain: vacuum
+    entity_id: d1a3c9f6d29dd50372f63e87fb8f8c5c
+    type: clean
+  mode: single
+- id: '1727539490647'
+  alias: Cleaning - Auto return
+  description: ''
+  triggers:
+  - device_id: 8c3c5701135886482d0ca8405c2a7830
+    domain: device_tracker
+    entity_id: a72e4e5aae7bc34ede34e96425571b8e
+    type: enters
+    zone: zone.home
+    trigger: device
+  conditions: []
+  actions:
+  - device_id: 96913eea60bdf81bd657ae157a3e5572
+    domain: vacuum
+    entity_id: d1a3c9f6d29dd50372f63e87fb8f8c5c
+    type: dock
+  mode: single
+- id: '1727540242749'
+  alias: Buitenlampjes - Auto aan
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: 0
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 23ff4aa5f8d6694ec3268c6457001107
+    entity_id: 9a35c8ed6442614aa238c6822959ff0b
+    domain: switch
+  mode: single
+- id: '1727540293490'
+  alias: TURN OFF ALL
+  description: ''
+  triggers:
+  - at: 03:00:00
+    trigger: time
+  conditions: []
+  actions:
+  - type: turn_off
+    device_id: 23ff4aa5f8d6694ec3268c6457001107
+    entity_id: 9a35c8ed6442614aa238c6822959ff0b
+    domain: switch
+  - type: turn_off
+    device_id: 32f9f06b76b00770f382563e88ff7fc6
+    entity_id: 6821109bed6b89b6f338c9c6471cd99b
+    domain: light
+  - action: input_boolean.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.house_cleaned
+  - type: turn_off
+    device_id: dc80c16b58df9a68efd95f7c9ed36de8
+    entity_id: 229172d816250083a99f552cd4c49058
+    domain: light
+  - type: turn_off
+    device_id: 056e70792de9b0d2092ca3383c66821f
+    entity_id: d728d0b0b861c5604c6ef41812cd1435
+    domain: light
+  mode: single
+- id: '1732320746544'
+  alias: Slaapkamer light - Auto dim
+  description: ''
+  triggers:
+  - type: turned_on
+    device_id: c3d99c23eea2787b10e30651f291e9ee
+    entity_id: e184a682527be574b866bdd187345b6a
+    domain: light
+    trigger: device
+  conditions:
+  - condition: time
+    after: '23:00:00'
+    before: 05:00:00
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+    - sat
+    - sun
+  actions:
+  - action: light.turn_on
+    metadata: {}
+    data:
+      kelvin: 2000
+      brightness_pct: 1
+    target:
+      device_id: c3d99c23eea2787b10e30651f291e9ee
+  mode: single
+- id: '1733845081793'
+  alias: Slaapmaker light - Auto helder
+  description: ''
+  triggers:
+  - type: turned_on
+    device_id: c3d99c23eea2787b10e30651f291e9ee
+    entity_id: e184a682527be574b866bdd187345b6a
+    domain: light
+    trigger: device
+  conditions:
+  - condition: time
+    after: '10:00:00'
+    before: '22:00:00'
+  actions:
+  - action: light.turn_on
+    metadata: {}
+    data:
+      kelvin: 6500
+      brightness_pct: 100
+    target:
+      device_id: c3d99c23eea2787b10e30651f291e9ee
+  mode: single
+- id: '1734213944874'
+  alias: Lampen woonkamer - Auto aan
+  description: ''
+  triggers:
+  - trigger: sun
+    event: sunset
+    offset: '-30'
+  - trigger: zone
+    entity_id: device_tracker.merlijns_iphone_12
+    zone: zone.home
+    event: enter
+  conditions:
+  - condition: and
+    conditions:
+    - condition: zone
+      entity_id: device_tracker.merlijns_iphone_12
+      zone: zone.home
+    - condition: sun
+      before: sunrise
+      before_offset: '-360'
+      after: sunset
+      after_offset: '-30'
+  actions:
+  - type: turn_on
+    device_id: 32f9f06b76b00770f382563e88ff7fc6
+    entity_id: 6821109bed6b89b6f338c9c6471cd99b
+    domain: light
+  - type: turn_on
+    device_id: dc80c16b58df9a68efd95f7c9ed36de8
+    entity_id: 229172d816250083a99f552cd4c49058
+    domain: light
+  mode: single
+- id: '1734698908114'
+  alias: Always play spotify
+  description: ''
+  triggers:
+  - device_id: 82f12807bbae918efa85593e0e0dd0b6
+    domain: media_player
+    entity_id: 3444a39c4d99938f3b222af74cdb07be
+    type: idle
+    trigger: device
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  conditions: []
+  actions:
+  - action: media_player.select_source
+    target:
+      entity_id: media_player.spotify_merlin2202
+    data:
+      source: homelab
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.spotify_merlin2202
+    data:
+      media_content_id: https://open.spotify.com/playlist/2iGzUU9ji5VEc6zdz4oZNK?si=a9cfc21b377f43a7
+      media_content_type: playlist
+  mode: single
+- id: '1741599762733'
+  alias: Turn off when leaving the zone
+  description: ''
+  triggers:
+  - device_id: 8c3c5701135886482d0ca8405c2a7830
+    domain: device_tracker
+    entity_id: a72e4e5aae7bc34ede34e96425571b8e
+    type: leaves
+    trigger: device
+    zone: zone.jumbo
+  conditions: []
+  actions:
+  - type: turn_off
+    device_id: 32f9f06b76b00770f382563e88ff7fc6
+    entity_id: 6821109bed6b89b6f338c9c6471cd99b
+    domain: light
+  - type: turn_off
+    device_id: dc80c16b58df9a68efd95f7c9ed36de8
+    entity_id: 229172d816250083a99f552cd4c49058
+    domain: light
+  - type: turn_off
+    device_id: 056e70792de9b0d2092ca3383c66821f
+    entity_id: d728d0b0b861c5604c6ef41812cd1435
+    domain: light
+  mode: single
+- id: '1741600092284'
+  alias: Turn light on when getting home
+  description: ''
+  triggers:
+  - device_id: 8c3c5701135886482d0ca8405c2a7830
+    domain: device_tracker
+    entity_id: a72e4e5aae7bc34ede34e96425571b8e
+    type: enters
+    trigger: device
+    zone: zone.home
+  - trigger: zone
+    entity_id: device_tracker.merlijns_iphone_12
+    zone: zone.home
+    event: enter
+  conditions:
+  - condition: sun
+    before: sunrise
+    before_offset: '-360'
+    after: sunset
+    after_offset: '-30'
+  - condition: or
+    conditions:
+    - condition: zone
+      entity_id: device_tracker.merlijns_iphone_12
+      zone: zone.home
+    - condition: device
+      device_id: 8c3c5701135886482d0ca8405c2a7830
+      domain: device_tracker
+      entity_id: a72e4e5aae7bc34ede34e96425571b8e
+      type: is_home
+  actions:
+  - type: turn_on
+    device_id: 32f9f06b76b00770f382563e88ff7fc6
+    entity_id: 6821109bed6b89b6f338c9c6471cd99b
+    domain: light
+  - type: turn_on
+    device_id: dc80c16b58df9a68efd95f7c9ed36de8
+    entity_id: 229172d816250083a99f552cd4c49058
+    domain: light
+  mode: single
+- id: '1741600399330'
+  alias: Turn on sfeer bedroom at 23 when home
+  description: ''
+  triggers:
+  - trigger: time
+    at: '23:00:00'
+  conditions:
+  - condition: zone
+    entity_id: device_tracker.merlijns_iphone_12
+    zone: zone.home
+  actions:
+  - type: turn_on
+    device_id: 056e70792de9b0d2092ca3383c66821f
+    entity_id: d728d0b0b861c5604c6ef41812cd1435
+    domain: light
+  mode: single

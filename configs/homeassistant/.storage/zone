@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "jumbo",
+        "latitude": 53.22805494908033,
+        "longitude": 6.563129425048829,
+        "name": "Jumbo",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 255.0
+      }
+    ]
+  }
+}

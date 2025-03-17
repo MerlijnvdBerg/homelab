@@ -1,0 +1,133 @@
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-03-17T21:36:54.866Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.5.1","timestamp":"2025-03-17T21:36:55.144Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-03-17T21:36:55.623Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2025-03-17T21:36:55.625Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":0,"type":1},"timestamp":"2025-03-17T21:36:55.627Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":1,"type":2},"timestamp":"2025-03-17T21:36:55.635Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":2,"type":3},"timestamp":"2025-03-17T21:36:55.640Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":3,"type":4},"timestamp":"2025-03-17T21:36:55.645Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":4,"type":5},"timestamp":"2025-03-17T21:36:55.649Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":5,"type":6},"timestamp":"2025-03-17T21:36:55.653Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":6,"type":7},"timestamp":"2025-03-17T21:36:55.656Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":7,"type":8},"timestamp":"2025-03-17T21:36:55.659Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":8,"type":9},"timestamp":"2025-03-17T21:36:55.663Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":9,"type":10},"timestamp":"2025-03-17T21:36:55.668Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":10,"type":11},"timestamp":"2025-03-17T21:36:55.672Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":11,"type":12},"timestamp":"2025-03-17T21:36:55.679Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-03-17T21:36:55.751Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-03-17T21:46:13.150Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.5.1","timestamp":"2025-03-17T21:46:13.428Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2025-03-17T21:46:13.762Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2025-03-17T21:46:13.763Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2025-03-17T21:46:13.764Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2025-03-17T21:46:13.764Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2025-03-17T21:46:13.764Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-03-17T21:46:13.765Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2025-03-17T21:46:13.768Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-03-17T21:46:13.843Z"}
+{"error":"","ip":"192.168.65.1","label":"Jellyfin API","level":"debug","message":"Failed to authenticate with headers","timestamp":"2025-03-17T22:07:17.013Z"}
+{"error":"INVALID_URL","hostname":"http://localhost:8096","label":"Auth","level":"error","message":"The provided Jellyfin is invalid or the server is not reachable.","status":404,"timestamp":"2025-03-17T22:07:17.014Z"}
+{"error":"connect ECONNREFUSED 127.0.0.1:8096","ip":"192.168.65.1","label":"Jellyfin API","level":"debug","message":"Failed to authenticate with headers","timestamp":"2025-03-17T22:08:22.656Z"}
+{"error":"INVALID_URL","hostname":"http://127.0.0.1:8096","label":"Auth","level":"error","message":"The provided Jellyfin is invalid or the server is not reachable.","status":404,"timestamp":"2025-03-17T22:08:22.656Z"}
+{"error":"connect ECONNREFUSED 127.0.0.1:8096","ip":"192.168.65.1","label":"Jellyfin API","level":"debug","message":"Failed to authenticate with headers","timestamp":"2025-03-17T22:08:40.837Z"}
+{"error":"INVALID_URL","hostname":"http://127.0.0.1:8096","label":"Auth","level":"error","message":"The provided Jellyfin is invalid or the server is not reachable.","status":404,"timestamp":"2025-03-17T22:08:40.838Z"}
+{"error":"","ip":"192.168.65.1","label":"Jellyfin API","level":"debug","message":"Failed to authenticate with headers","timestamp":"2025-03-17T22:09:37.551Z"}
+{"error":"INVALID_URL","hostname":"http://localhost:8096","label":"Auth","level":"error","message":"The provided Jellyfin is invalid or the server is not reachable.","status":404,"timestamp":"2025-03-17T22:09:37.552Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-03-17T22:13:45.652Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.5.1","timestamp":"2025-03-17T22:13:45.949Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2025-03-17T22:13:46.450Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2025-03-17T22:13:46.451Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2025-03-17T22:13:46.453Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2025-03-17T22:13:46.453Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2025-03-17T22:13:46.454Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-03-17T22:13:46.456Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2025-03-17T22:13:46.458Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-03-17T22:13:46.526Z"}
+{"ip":"::ffff:192.168.65.1","jellyfinUsername":"admin","label":"API","level":"info","message":"Sign-in attempt from Jellyfin user with access to the media server; creating initial admin user for Jellyseerr","timestamp":"2025-03-17T22:20:03.328Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2025-03-17T22:20:03.374Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"ee1e9fb9-f3d9-4182-8ce9-e5cecae26118","timestamp":"2025-03-17T22:20:06.353Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Full Scan Complete","timestamp":"2025-03-17T22:20:06.357Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"f8997a66-8761-419c-847b-ab984fde2e16","timestamp":"2025-03-17T22:20:23.006Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Full Scan Complete","timestamp":"2025-03-17T22:20:23.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:21:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:22:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:23:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:24:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:25:00.021Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-03-17T22:25:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"f04e7ce9-c08b-4564-a602-f176f2cfe821","timestamp":"2025-03-17T22:25:00.027Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Downloads","timestamp":"2025-03-17T22:25:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-03-17T22:25:00.055Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-03-17T22:25:00.058Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-03-17T22:25:00.060Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:26:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:27:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:28:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:29:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:30:00.019Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-03-17T22:30:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"79d769c8-d715-4245-ab82-8378f2b1a12e","timestamp":"2025-03-17T22:30:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Downloads","timestamp":"2025-03-17T22:30:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-03-17T22:30:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-03-17T22:30:00.045Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-03-17T22:30:00.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:31:00.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:32:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:33:00.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:34:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:35:00.011Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-03-17T22:35:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"905db978-fa83-4519-9f26-9f3aa73d713f","timestamp":"2025-03-17T22:35:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Downloads","timestamp":"2025-03-17T22:35:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-03-17T22:35:00.027Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-03-17T22:35:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-03-17T22:35:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:36:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:37:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:38:00.028Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:39:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:40:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-03-17T22:40:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"30beaa2b-8083-4574-9eb2-9da9580d32ad","timestamp":"2025-03-17T22:40:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Downloads","timestamp":"2025-03-17T22:40:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-03-17T22:40:00.047Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-03-17T22:40:00.049Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-03-17T22:40:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:41:00.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:42:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:43:00.021Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-03-17T22:43:59.617Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.5.1","timestamp":"2025-03-17T22:43:59.902Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2025-03-17T22:44:00.282Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2025-03-17T22:44:00.283Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2025-03-17T22:44:00.284Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2025-03-17T22:44:00.285Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2025-03-17T22:44:00.285Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-03-17T22:44:00.289Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2025-03-17T22:44:00.317Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-03-17T22:44:00.424Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:45:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-03-17T22:45:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"28075188-dad0-4a1f-a9b4-76f4ddea849c","timestamp":"2025-03-17T22:45:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Downloads","timestamp":"2025-03-17T22:45:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-03-17T22:45:00.104Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-03-17T22:45:00.110Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-03-17T22:45:00.114Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:46:00.007Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:47:00.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:48:00.012Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:49:00.004Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:50:00.003Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-03-17T22:50:00.005Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"996f9a6d-c982-4544-bb2a-0b702676fd8d","timestamp":"2025-03-17T22:50:00.006Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Downloads","timestamp":"2025-03-17T22:50:00.009Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-03-17T22:50:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-03-17T22:50:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-03-17T22:50:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:51:00.011Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"The Electric State (2025)","timestamp":"2025-03-17T22:51:01.253Z"}
+{"label":"Media Request","level":"info","mediaId":1,"message":"Sent request to Radarr","requestId":1,"timestamp":"2025-03-17T22:51:01.256Z"}
+{"label":"Radarr","level":"info","message":"Radarr accepted request","timestamp":"2025-03-17T22:51:01.578Z"}
+{"label":"Radarr","level":"debug","message":"Radarr add details","movie":{"addOptions":{"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly","searchForMovie":true},"added":"2025-03-17T22:51:01Z","alternateTitles":[],"certification":"PG-13","cleanTitle":"theelectricstate","digitalRelease":"2025-03-13T00:00:00Z","folderName":"/media/movies/The Electric State (2025)","genres":["Science Fiction","Adventure","Drama"],"hasFile":false,"id":1,"images":[{"coverType":"poster","remoteUrl":"https://image.tmdb.org/t/p/original/jRdxyW5ZmhD3ycStlb7gwOewTuE.jpg","url":"/MediaCover/1/poster.jpg"},{"coverType":"fanart","remoteUrl":"https://image.tmdb.org/t/p/original/2n7lYEeIbucsEQCswRcVB6ZYmMP.jpg","url":"/MediaCover/1/fanart.jpg"}],"imdbId":"tt7766378","inCinemas":"2025-03-07T00:00:00Z","isAvailable":true,"minimumAvailability":"released","monitored":true,"movieFileId":0,"originalLanguage":{"id":1,"name":"English"},"originalTitle":"The Electric State","overview":"An orphaned teen hits the road with a mysterious robot to find her long-lost brother, teaming up with a smuggler and his wisecracking sidekick.","path":"/media/movies/The Electric State (2025)","popularity":14.675,"qualityProfileId":6,"ratings":{"metacritic":{"type":"user","value":31,"votes":0},"tmdb":{"type":"user","value":6.8,"votes":340}},"releaseDate":"2025-03-13T00:00:00Z","rootFolderPath":"/media/movies/","runtime":128,"secondaryYearSourceId":0,"sizeOnDisk":0,"sortTitle":"electric state","statistics":{"movieFileCount":0,"releaseGroups":[],"sizeOnDisk":0},"status":"released","studio":"AGBO","tags":[],"title":"The Electric State","titleSlug":"777443","tmdbId":777443,"website":"https://www.netflix.com/title/81601562","year":2025,"youTubeTrailerId":"QIw6ITiwgBU"},"timestamp":"2025-03-17T22:51:01.578Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:52:00.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-03-17T22:53:00.007Z"}

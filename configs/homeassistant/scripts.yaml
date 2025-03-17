@@ -1,0 +1,67 @@
+turn_off_all:
+  alias: Turn off all
+  sequence:
+  - type: turn_off
+    device_id: 23ff4aa5f8d6694ec3268c6457001107
+    entity_id: 9a35c8ed6442614aa238c6822959ff0b
+    domain: switch
+  - type: turn_off
+    device_id: c3d99c23eea2787b10e30651f291e9ee
+    entity_id: e184a682527be574b866bdd187345b6a
+    domain: light
+  - type: turn_off
+    device_id: 32f9f06b76b00770f382563e88ff7fc6
+    entity_id: 6821109bed6b89b6f338c9c6471cd99b
+    domain: light
+  description: ''
+  icon: mdi:alarm-light-off
+toggle_lamp_kast:
+  alias: Toggle lamp kast
+  sequence:
+  - type: toggle
+    device_id: 32f9f06b76b00770f382563e88ff7fc6
+    entity_id: 6821109bed6b89b6f338c9c6471cd99b
+    domain: light
+  description: ''
+  icon: mdi:desk-lamp
+fade_in_light:
+  alias: Fade in light
+  sequence:
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.smart_plug_socket_1
+  - delay:
+      hours: 0
+      minutes: 2
+      seconds: 0
+  - action: light.turn_on
+    metadata: {}
+    data:
+      kelvin: 2000
+      brightness_pct: 1
+    target:
+      device_id: c3d99c23eea2787b10e30651f291e9ee
+  - repeat:
+      count: 100
+      sequence:
+      - delay:
+          hours: 0
+          minutes: 0
+          seconds: 2
+          milliseconds: 0
+      - action: light.turn_on
+        metadata: {}
+        data:
+          brightness_step_pct: 1
+        target:
+          device_id: c3d99c23eea2787b10e30651f291e9ee
+  - action: light.turn_on
+    metadata: {}
+    data:
+      kelvin: 6500
+      brightness_pct: 100
+    target:
+      device_id: c3d99c23eea2787b10e30651f291e9ee
+  description: ''

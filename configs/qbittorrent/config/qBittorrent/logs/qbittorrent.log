@@ -1,0 +1,136 @@
+(N) 2025-03-17T21:36:53 - qBittorrent v5.0.4 started. Process ID: 143
+(N) 2025-03-17T21:36:53 - Using config directory: /config/qBittorrent
+(N) 2025-03-17T21:36:53 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-03-17T21:36:53 - Peer ID: "-qB5040-"
+(I) 2025-03-17T21:36:53 - HTTP User-Agent: "qBittorrent/5.0.4"
+(I) 2025-03-17T21:36:53 - Distributed Hash Table (DHT) support: ON
+(I) 2025-03-17T21:36:53 - Local Peer Discovery support: ON
+(I) 2025-03-17T21:36:53 - Peer Exchange (PeX) support: ON
+(I) 2025-03-17T21:36:53 - Anonymous mode: OFF
+(I) 2025-03-17T21:36:53 - Encryption support: ON
+(I) 2025-03-17T21:36:53 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-03-17T21:36:53 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-03-17T21:36:53 - Successfully listening on IP. IP: "172.20.0.3". Port: "TCP/6881"
+(I) 2025-03-17T21:36:53 - Successfully listening on IP. IP: "172.20.0.3". Port: "UTP/6881"
+(I) 2025-03-17T21:36:53 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-03-17T21:36:53 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-03-17T21:36:53 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-03-17T21:36:54 - Using built-in WebUI.
+(W) 2025-03-17T21:36:54 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-03-17T21:36:54 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-03-17T21:36:54 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Mar 1 02:21:54 2025.
+(I) 2025-03-17T21:36:54 - Successfully updated IP geolocation database.
+(N) 2025-03-17T21:46:06 - qBittorrent termination initiated
+(N) 2025-03-17T21:46:06 - Saving resume data completed.
+(N) 2025-03-17T21:46:06 - BitTorrent session successfully finished.
+(N) 2025-03-17T21:46:06 - qBittorrent is now ready to exit
+(N) 2025-03-17T21:46:12 - qBittorrent v5.0.4 started. Process ID: 142
+(N) 2025-03-17T21:46:12 - Using config directory: /config/qBittorrent
+(N) 2025-03-17T21:46:12 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-03-17T21:46:12 - Peer ID: "-qB5040-"
+(I) 2025-03-17T21:46:12 - HTTP User-Agent: "qBittorrent/5.0.4"
+(I) 2025-03-17T21:46:12 - Distributed Hash Table (DHT) support: ON
+(I) 2025-03-17T21:46:12 - Local Peer Discovery support: ON
+(I) 2025-03-17T21:46:12 - Peer Exchange (PeX) support: ON
+(I) 2025-03-17T21:46:12 - Anonymous mode: OFF
+(I) 2025-03-17T21:46:12 - Encryption support: ON
+(I) 2025-03-17T21:46:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-03-17T21:46:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-03-17T21:46:12 - Successfully listening on IP. IP: "172.20.0.8". Port: "TCP/6881"
+(I) 2025-03-17T21:46:12 - Successfully listening on IP. IP: "172.20.0.8". Port: "UTP/6881"
+(I) 2025-03-17T21:46:12 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-03-17T21:46:12 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-03-17T21:46:12 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Mar 1 02:21:54 2025.
+(N) 2025-03-17T21:46:12 - Using built-in WebUI.
+(W) 2025-03-17T21:46:12 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-03-17T21:46:12 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-03-17T22:10:34 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:192.168.65.1, username: admin
+(N) 2025-03-17T22:12:23 - qBittorrent termination initiated
+(N) 2025-03-17T22:12:23 - Saving resume data completed.
+(N) 2025-03-17T22:12:23 - BitTorrent session successfully finished.
+(N) 2025-03-17T22:12:23 - qBittorrent is now ready to exit
+(N) 2025-03-17T22:12:55 - qBittorrent v5.0.4 started. Process ID: 141
+(N) 2025-03-17T22:12:55 - Using config directory: /config/qBittorrent
+(N) 2025-03-17T22:12:55 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-03-17T22:12:55 - Peer ID: "-qB5040-"
+(I) 2025-03-17T22:12:55 - HTTP User-Agent: "qBittorrent/5.0.4"
+(I) 2025-03-17T22:12:55 - Distributed Hash Table (DHT) support: ON
+(I) 2025-03-17T22:12:55 - Local Peer Discovery support: ON
+(I) 2025-03-17T22:12:55 - Peer Exchange (PeX) support: ON
+(I) 2025-03-17T22:12:55 - Anonymous mode: OFF
+(I) 2025-03-17T22:12:55 - Encryption support: ON
+(I) 2025-03-17T22:12:55 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-03-17T22:12:55 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-03-17T22:12:55 - Successfully listening on IP. IP: "172.20.0.8". Port: "TCP/6881"
+(I) 2025-03-17T22:12:55 - Successfully listening on IP. IP: "172.20.0.8". Port: "UTP/6881"
+(I) 2025-03-17T22:12:55 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-03-17T22:12:55 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-03-17T22:12:55 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Mar 1 02:21:54 2025.
+(N) 2025-03-17T22:12:55 - Using built-in WebUI.
+(W) 2025-03-17T22:12:55 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-03-17T22:12:55 - WebUI: Now listening on IP: *, port: 8080
+(N) 2025-03-17T22:13:19 - qBittorrent termination initiated
+(N) 2025-03-17T22:13:19 - Saving resume data completed.
+(N) 2025-03-17T22:13:19 - BitTorrent session successfully finished.
+(N) 2025-03-17T22:13:19 - qBittorrent is now ready to exit
+(N) 2025-03-17T22:13:44 - qBittorrent v5.0.4 started. Process ID: 139
+(N) 2025-03-17T22:13:44 - Using config directory: /config/qBittorrent
+(N) 2025-03-17T22:13:44 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-03-17T22:13:44 - Peer ID: "-qB5040-"
+(I) 2025-03-17T22:13:44 - HTTP User-Agent: "qBittorrent/5.0.4"
+(I) 2025-03-17T22:13:44 - Distributed Hash Table (DHT) support: ON
+(I) 2025-03-17T22:13:44 - Local Peer Discovery support: ON
+(I) 2025-03-17T22:13:44 - Peer Exchange (PeX) support: ON
+(I) 2025-03-17T22:13:44 - Anonymous mode: OFF
+(I) 2025-03-17T22:13:44 - Encryption support: ON
+(I) 2025-03-17T22:13:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-03-17T22:13:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-03-17T22:13:44 - Successfully listening on IP. IP: "172.20.0.14". Port: "TCP/6881"
+(I) 2025-03-17T22:13:44 - Successfully listening on IP. IP: "172.20.0.14". Port: "UTP/6881"
+(I) 2025-03-17T22:13:44 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-03-17T22:13:44 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-03-17T22:13:44 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Mar 1 02:21:54 2025.
+(N) 2025-03-17T22:13:44 - Using built-in WebUI.
+(W) 2025-03-17T22:13:44 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-03-17T22:13:44 - WebUI: Now listening on IP: *, port: 8080
+(N) 2025-03-17T22:13:52 - WebAPI login success. IP: ::ffff:192.168.65.1
+(N) 2025-03-17T22:14:21 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-03-17T22:14:28 - WebAPI login success. IP: ::ffff:192.168.65.1
+(N) 2025-03-17T22:21:17 - WebAPI login success. IP: ::ffff:172.20.0.13
+(N) 2025-03-17T22:23:22 - WebAPI login success. IP: ::ffff:172.20.0.5
+(N) 2025-03-17T22:26:03 - WebAPI login success. IP: ::ffff:172.20.0.7
+(N) 2025-03-17T22:29:01 - WebAPI login success. IP: ::ffff:172.20.0.9
+(N) 2025-03-17T22:43:05 - qBittorrent termination initiated
+(N) 2025-03-17T22:43:05 - Saving resume data completed.
+(N) 2025-03-17T22:43:05 - BitTorrent session successfully finished.
+(N) 2025-03-17T22:43:05 - qBittorrent is now ready to exit
+(N) 2025-03-17T22:43:58 - qBittorrent v5.0.4 started. Process ID: 141
+(N) 2025-03-17T22:43:58 - Using config directory: /config/qBittorrent
+(N) 2025-03-17T22:43:58 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-03-17T22:43:58 - Peer ID: "-qB5040-"
+(I) 2025-03-17T22:43:58 - HTTP User-Agent: "qBittorrent/5.0.4"
+(I) 2025-03-17T22:43:58 - Distributed Hash Table (DHT) support: ON
+(I) 2025-03-17T22:43:58 - Local Peer Discovery support: ON
+(I) 2025-03-17T22:43:58 - Peer Exchange (PeX) support: ON
+(I) 2025-03-17T22:43:58 - Anonymous mode: OFF
+(I) 2025-03-17T22:43:58 - Encryption support: ON
+(I) 2025-03-17T22:43:58 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-03-17T22:43:58 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-03-17T22:43:58 - Successfully listening on IP. IP: "172.20.0.6". Port: "TCP/6881"
+(I) 2025-03-17T22:43:58 - Successfully listening on IP. IP: "172.20.0.6". Port: "UTP/6881"
+(I) 2025-03-17T22:43:58 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-03-17T22:43:58 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-03-17T22:43:58 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Mar 1 02:21:54 2025.
+(N) 2025-03-17T22:43:58 - Using built-in WebUI.
+(N) 2025-03-17T22:43:58 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-03-17T22:43:58 - WebUI: Now listening on IP: *, port: 8080
+(N) 2025-03-17T22:43:59 - WebAPI login success. IP: ::ffff:172.20.0.11
+(N) 2025-03-17T22:44:00 - WebAPI login success. IP: ::ffff:172.20.0.4
+(N) 2025-03-17T22:44:00 - WebAPI login success. IP: ::ffff:172.20.0.5
+(N) 2025-03-17T22:51:03 - Added new torrent. Torrent: "The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL"
+(I) 2025-03-17T22:51:03 - Detected external IP. IP: "84.85.166.177"
+(W) 2025-03-17T22:51:05 - File error alert. Torrent: "The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL". File: "/downloads/www.UIndex.org    -    The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL/The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL.mkv". Reason: "www.UIndex.org    -    The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL file_open (/downloads/www.UIndex.org    -    The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL/The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL.mkv) error: Permission denied"
+(N) 2025-03-17T22:51:14 - WebAPI login success. IP: ::ffff:192.168.65.1
+(N) 2025-03-17T22:52:32 - Torrent stopped. Torrent: "The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL"
+(N) 2025-03-17T22:52:37 - Torrent removed. Torrent: "The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL"
+(N) 2025-03-17T22:52:37 - Torrent content removed. Torrent: "The.Electric.State.2025.REAL.1080p.WEB.h264-ETHEL"
