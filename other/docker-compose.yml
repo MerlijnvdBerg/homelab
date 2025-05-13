@@ -1,0 +1,46 @@
+services:
+
+  base_service:
+    container_name: base_service
+    image: alpine:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    restart: unless-stopped
+    networks:
+      - proxy_network
+
+
+  homeassistant:
+    <<: *base_service
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+
+    volumes:
+      - ./configs/homeassistant:/config
+    restart: unless-stopped
+    ports:
+      - "8123:8123"
+
+  pihole:
+    <<: *base_service
+    container_name: pihole
+    image: pihole/pihole:latest
+    environment:
+      - WEBPASSWORD=3zKf5q2gW8
+    volumes:
+      - ./configs/pihole/etc-pihole:/etc/pihole
+      - ./configs/pihole/etc-dnsmasq.d:/etc/dnsmasq.d
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"
+      - "8082:80"
+
+
+networks:
+  proxy_network:
+    driver: bridge
