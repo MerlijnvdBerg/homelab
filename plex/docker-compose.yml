@@ -1,16 +1,15 @@
+x-base_service: &base_service
+  container_name: base_service
+  image: alpine:latest
+  environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ=Europe/Amsterdam
+  restart: unless-stopped
+  networks:
+    - proxy_network
+
 services:
-
-  base_service:
-    container_name: base_service
-    image: alpine:latest
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Amsterdam
-    restart: unless-stopped
-    networks:
-      - proxy_network
-
   jellyfin:
     <<: *base_service
     container_name: jellyfin
