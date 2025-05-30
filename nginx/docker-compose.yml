@@ -1,0 +1,50 @@
+version: "3.9"
+
+############################
+# Reverse-proxy + ACME
+############################
+services:
+  nginx:
+    image: nginx:alpine                  # small and solid
+    container_name: nginx_proxy
+    restart: unless-stopped
+
+    # expose both HTTP (for ACME) and HTTPS
+    ports:
+      - "80:80"
+      - "443:443"
+
+    volumes:
+      # all paths are *relative to this compose file*
+      - ./conf.d:/etc/nginx/conf.d:ro    # virtual-host files
+      - ./certs:/etc/nginx/certs:ro      # live certs/keys (synced by certbot)
+      - ./logs:/var/log/nginx            # access / error logs
+
+    networks:
+      - proxy_network
+
+  certbot:
+    # renews certificates twice a day in web-root mode
+    image: certbot/certbot:latest
+    container_name: certbot
+    restart: unless-stopped
+    volumes:
+      - ./certs:/etc/letsencrypt         # where certbot stores live certs
+      - ./conf.d:/var/www/html           # web-root for the ACME challenge
+    entrypoint: >
+      /bin/sh -c "
+        while :; do
+          certbot renew --webroot -w /var/www/html --quiet
+          sleep 12h
+        done
+      "
+    networks:
+      - proxy_network
+
+############################
+# External network shared with your media stack
+############################
+networks:
+  proxy_network:
+    external: true
+    name: proxy_network
