@@ -1,0 +1,92 @@
+x-base_service: &base_service
+  container_name: base_service
+  image: alpine:latest
+  platform: linux/amd64
+  environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ=Europe/Amsterdam
+  restart: unless-stopped
+  networks:
+    - proxy_network
+
+services:
+  jellyfin:
+    <<: *base_service
+    container_name: jellyfin
+    image: jellyfin/jellyfin
+    volumes:
+      - ./configs/jellyfin/config:/config
+      - ./media:/media
+    ports:
+      - "8096:8096"
+
+  jellyseerr:
+    <<: *base_service
+    container_name: jellyseerr
+    image: fallenbagel/jellyseerr:latest
+    volumes:
+      - ./configs/jellyseerr/config:/app/config
+      - ./media:/media
+    ports:
+      - "5055:5055"
+
+  qbittorrent:
+    <<: *base_service
+    container_name: qbittorrent
+    image: lscr.io/linuxserver/qbittorrent:latest
+    environment:
+      - WEBUI_PORT=8080
+      - TORRENTING_PORT=6881
+    volumes:
+      - ./configs/qbittorrent/config:/config
+      - ./media:/media
+    ports:
+      - "8080:8080"
+      - "6881:6881"
+      - "6881:6881/udp"
+
+  sonarr:
+    <<: *base_service
+    container_name: sonarr
+    image: lscr.io/linuxserver/sonarr:latest
+    volumes:
+      - ./configs/sonarr/config:/config
+      - ./media:/media
+    ports:
+      - "8989:8989"
+
+  radarr:
+    <<: *base_service
+    container_name: radarr
+    image: lscr.io/linuxserver/radarr:latest
+    volumes:
+      - ./configs/radarr/config:/config
+      - ./media:/media
+    ports:
+      - "7878:7878"
+
+  readarr:
+    <<: *base_service
+    container_name: readarr
+    image: lscr.io/linuxserver/readarr:latest
+    volumes:
+      - ./configs/readarr/config:/config
+      - ./media:/media
+    ports:
+      - "8787:8787"
+
+  prowlarr:
+    <<: *base_service
+    container_name: prowlarr
+    image: lscr.io/linuxserver/prowlarr:latest
+    volumes:
+      - ./configs/prowlarr/config:/config
+      - ./media:/media
+    ports:
+      - "9696:9696"
+
+networks:
+  proxy_network:
+    name: proxy_network
+    driver: bridge
