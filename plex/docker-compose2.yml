@@ -11,26 +11,6 @@ x-base_service: &base_service
     - proxy_network
 
 services:
-  jellyfin:
-    <<: *base_service
-    container_name: jellyfin
-    image: jellyfin/jellyfin
-    volumes:
-      - ./configs/jellyfin/config:/config
-      - ./media:/media
-    ports:
-      - "8096:8096"
-
-  jellyseerr:
-    <<: *base_service
-    container_name: jellyseerr
-    image: fallenbagel/jellyseerr:latest
-    volumes:
-      - ./configs/jellyseerr/config:/app/config
-      - ./media:/media
-    ports:
-      - "5055:5055"
-
   qbittorrent:
     <<: *base_service
     container_name: qbittorrent
