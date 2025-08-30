@@ -46,16 +46,6 @@ services:
     ports:
       - "7878:7878"
 
-  readarr:
-    <<: *base_service
-    container_name: readarr
-    image: lscr.io/linuxserver/readarr:latest
-    volumes:
-      - ./configs/readarr/config:/config
-      - ./media:/media
-    ports:
-      - "8787:8787"
-
   prowlarr:
     <<: *base_service
     container_name: prowlarr
