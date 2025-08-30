@@ -11,6 +11,17 @@ x-base_service: &base_service
     - proxy_network
 
 services:
+  jellyfin:
+    <<: *base_service
+    container_name: jellyfin
+    image: jellyfin/jellyfin
+    platform: linux/amd64
+    volumes:
+      - ./configs/jellyfin/config:/config
+      - ./media:/media
+    ports:
+      - "8096:8096"
+
   qbittorrent:
     <<: *base_service
     container_name: qbittorrent
