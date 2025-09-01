@@ -20,7 +20,27 @@ services:
       - ./configs/jellyfin/config:/config
       - ./media:/media
     ports:
-      - "8096:8096"
+      - "8001:8096"
+
+  sonarr:
+    <<: *base_service
+    container_name: sonarr
+    image: lscr.io/linuxserver/sonarr:latest
+    volumes:
+      - ./configs/sonarr/config:/config
+      - ./media:/media
+    ports:
+      - "8002:8989"
+
+  radarr:
+    <<: *base_service
+    container_name: radarr
+    image: lscr.io/linuxserver/radarr:latest
+    volumes:
+      - ./configs/radarr/config:/config
+      - ./media:/media
+    ports:
+      - "8003:7878"
 
   qbittorrent:
     <<: *base_service
@@ -33,29 +53,9 @@ services:
       - ./configs/qbittorrent/config:/config
       - ./media:/media
     ports:
-      - "8080:8080"
+      - "8004:8080"
       - "6881:6881"
       - "6881:6881/udp"
-
-  sonarr:
-    <<: *base_service
-    container_name: sonarr
-    image: lscr.io/linuxserver/sonarr:latest
-    volumes:
-      - ./configs/sonarr/config:/config
-      - ./media:/media
-    ports:
-      - "8989:8989"
-
-  radarr:
-    <<: *base_service
-    container_name: radarr
-    image: lscr.io/linuxserver/radarr:latest
-    volumes:
-      - ./configs/radarr/config:/config
-      - ./media:/media
-    ports:
-      - "7878:7878"
 
   prowlarr:
     <<: *base_service
@@ -65,7 +65,7 @@ services:
       - ./configs/prowlarr/config:/config
       - ./media:/media
     ports:
-      - "9696:9696"
+      - "8005:9696"
 
 networks:
   proxy_network:
